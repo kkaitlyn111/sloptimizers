@@ -1,6 +1,6 @@
 # sloptimizers
 
-Between the modded-nanogpt speedrun's optimization track and other optimizer competitions, there's a lot of work on making optimizers faster, but the field still lacks a good metric for how sample efficient an optimizer is. We run some simple tests to see how different optimizers behave when you train on a fixed amount of data, under controlled settings following [Fantastic Pretraining Optimizers and Where to Find Them](https://arxiv.org/abs/2509.02046) and [Pre-training under Infinite Compute](https://arxiv.org/abs/2509.14786).
+Since AdamW (2017), hundreds of optimizer variants ("sloptimizers") have been published, but basically only one outside of Adam has made large-scale pretraining (Muon). Between the modded-nanogpt speedrun's optimization track and other optimizer competitions, there's a lot of work on optimizer convergence and compute efficiency, but the field still lacks a good metric for how sample efficient an optimizer is. We run some simple tests to see how different optimizers behave when trained on a fixed amount of data, under controlled settings following [Fantastic Pretraining Optimizers and Where to Find Them](https://arxiv.org/abs/2509.02046) and [Pre-training under Infinite Compute](https://arxiv.org/abs/2509.14786).
 
 Kaitlyn Wang, Alan Xiao, Revant Kasichainula
 
