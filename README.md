@@ -2,8 +2,6 @@
 
 Between the modded-nanogpt speedrun's optimization track and other optimizer competitions, there's a lot of work on making optimizers faster, but the field still lacks a good metric for how sample efficient an optimizer is. We run some simple tests to see how different optimizers behave when you train on a fixed amount of data, under controlled settings following [Fantastic Pretraining Optimizers and Where to Find Them](https://arxiv.org/abs/2509.02046) and [Pre-training under Infinite Compute](https://arxiv.org/abs/2509.14786).
 
-Architecture and hypers follow [Fantastic Pretraining Optimizers and Where to Find Them](https://arxiv.org/abs/2509.02046) and [Pre-training under Infinite Compute](https://arxiv.org/abs/2509.14786).
-
 Kaitlyn Wang, Alan Xiao, Revant Kasichainula
 
 This work is ongoing!
