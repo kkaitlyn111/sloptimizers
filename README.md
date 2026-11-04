@@ -4,7 +4,7 @@ Between the modded-nanogpt speedrun's optimization track and other optimizer com
 
 Kaitlyn Wang, Alan Xiao, Revant Kasichainula
 
-This work is ongoing!
+This work is ongoing, blog post coming soon!
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/val_loss_vs_size_dark.png">
