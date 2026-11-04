@@ -34,6 +34,17 @@ python examples/sweep_tiny.py --optimizer muoneq-r
 
 `sloptimizers/sweep.py` runs a locally optimal hyperparameter sweep.
 
+## Citation
+
+```bibtex
+@misc{wang2026implicit,
+  title        = {Implicit Regularization of Pretraining Optimizers},
+  author       = {Wang, Kaitlyn and Xiao, Alan and Kasichainula, Revant},
+  year         = {2026},
+  howpublished = {\url{https://github.com/kkaitlyn111/sloptimizers}}
+}
+```
+
 ## License
 
 MIT
