@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sloptimizers"
+version = "0.1.0"
+description = "PyTorch optimizers for LLM pretraining on a fixed data budget: MuonEq-R, SOAP, SOAP-H, Hyperball, SAM, Nexus, AdamHD"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Kaitlyn Wang" },
+    { name = "Alan Xiao" },
+    { name = "Revant Kasichainula" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.4",
+    "numpy>=1.26",
+    "datasets>=2.20",
+    "transformers>=4.44",
+    "sentencepiece>=0.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["sloptimizers"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+.pytest_cache/
+.DS_Store
+
+# data and run outputs
+data/
+runs/
+wandb/
+checkpoints/
+*.bin
+*.pt
+*.ckpt
+slurm-*.out
