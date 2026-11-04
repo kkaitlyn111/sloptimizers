@@ -18,10 +18,11 @@ This work is ongoing, blog post coming soon!
 - Second-order and preconditioned optimizers (SOAP, Muon, layer-wise Gauss-Newton)
 - Norm-constrained updates (Hyperball)
 - SAM and Nexus
+- Generalization measures from [Fantastic Generalization Measures and Where to Find Them](https://arxiv.org/abs/1912.02178) (norm, spectral, sharpness and PAC-Bayes based)
 
 ## Code
 
-PyTorch implementations of the optimizers are in `sloptimizers/`, with a tiny training example in `examples/`.
+PyTorch implementations of the optimizers and generalization measures are in `sloptimizers/`, with tiny examples in `examples/`.
 
 ```bash
 pip install -e .
